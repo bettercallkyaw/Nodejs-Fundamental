@@ -1,0 +1,46 @@
+What is Node.js?
+-JavaScript runtime(Not a language and framework)
+-Built on the V8 JavaScript engine(same as google chrome)
+-written C++
+-Esentially allows us to run JavaScript code on the server
+
+Why use Node?
+-fast,efficient and highly sclabale
+-event driven,non-blocking I/O model
+-popular in the industry
+-same language on the front and back end(JS)
+
+Non-Blocking I/O
+-works on a single thread using non-blocking I/O calls
+-supports tens of thousands concurrent connections
+-optimizes throughput &scalability in apps with many I/O operations
+-All of this makes Node.js very fast and efficient
+
+Node Event Loop
+-single threaded
+-supports concurrency via events and callbacks
+-EventEmitter class is used to binds events and listeners
+
+Best types of projects for node
+-Rest API and microservices
+-Real time services(chat,live updates)
+-crud apps-(blogs,shooping cart,social networks)
+-toos and utilities
+
+NPM node package manager
+-install 3rd party package(frameworks,libraries,tools,etc)
+-packages get stored in the "node_modules" folder
+-all dependencies are listed in a "package.js" file 
+-NPM scripts can be created to run certain tasks such as run as server
+
+npm init ==>genereate a package.js file 
+npm install express==>install a package locally
+npm install -d nodemon ==>install a package globally
+
+Node Modules
+-Node core Modules(path,fs,os,http,etc)
+-3rd party modules/packages installed via NPM
+-custom modules(files)
+
+const path=require('os');
+const myFile=require('./myFile');
